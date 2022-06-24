@@ -8,7 +8,7 @@ app.use(express.json());
 const PORT = 3000;
 
 /**
-   * @openapi
+   * @swagger
    * /ping:
    *  get:
    *     tags:
@@ -23,7 +23,7 @@ app.get('/ping', (_req, res) => {
 });
 
 /**
-   * @openapi
+   * @swagger
    * /healthcheck:
    *  get:
    *     tags:
